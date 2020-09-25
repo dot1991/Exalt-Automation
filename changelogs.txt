@@ -1,0 +1,15 @@
+1.0
+	* Stable build. Email of account must be copied before ran
+	* Opens client, moves it, n++ and firefox to their locations
+	* Waits until login prompt appears, then pastes email
+	* Copies MD path and pastes it into n++, and opens its accounts.js
+	  to get its account information.
+	* IF catch to look for security question prompt by deca. if found,
+	  these will be filled out, and then the account logs into the game.
+
+1.1
+	* Shortened all delays that are more than 500ms of length, that aren't
+	  absolutely necessary for the program to function, to this length.
+
+1.2
+	* Added third button catch before play, TOS verification. Has not been tested.
